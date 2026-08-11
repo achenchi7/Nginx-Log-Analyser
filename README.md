@@ -2,6 +2,8 @@
 
 A lightweight, dependency-free Bash shell script for parsing and extracting key operational metrics from Nginx access log files.
 
+> This project is part of the [roadmap.sh DevOps Projects series: Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser).
+
 ---
 
 ## Overview
@@ -114,3 +116,9 @@ This script is designed for the standard **Nginx Combined Log Format**:
 ```text
 $remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"
 ```
+
+---
+
+## Acknowledgements
+
+- Project idea and requirements from [roadmap.sh Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser).
